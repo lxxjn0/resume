@@ -1,14 +1,14 @@
 module.exports = {
 
-    author: "@konstantinmuenster",
-    siteTitle: "Gatsby Starter Portfolio Minimal",
-    siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-    siteDescription: "A modern one-page portfolio with a clean yet expressive design.",
-    siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
-    siteLanguage: "en_US",
+    author: "@junyounglee",
+    siteTitle: "Junyoung Lee - Resume",
+    siteShortTitle: "Junyoung Lee.", // Used as logo text in header, footer, and splash screen
+    siteDescription: "Hi there! I'm Junyoung Lee, junior web back-end developer based in Seoul",
+    siteUrl: "https://lxxjn0-resume.netlify.app//",
+    siteLanguage: "ko_KR",
     siteIcon: "src/content/favicon.png", // Relative to gatsby-config file
 
-    splashScreen: false, // Set this to true if you want to use the splash screen
+    splashScreen: true, // Set this to true if you want to use the splash screen
 
     // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
     // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
@@ -19,37 +19,33 @@ module.exports = {
     // Medium, GitHub, LinkedIn, XING, Behance
     socialMedia: [
         {
-            name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
-        },
-        {
-            name: "Medium",
-            url: "https://medium.com/@konstantin.muenster"
-        },
-        {
             name: "Github",
-            url: "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal"
+            url: "https://github.com/lxxjn0"
         },
         {
-            name: "Behance",
-            url: "https://www.behance.net/konstanmnster"
+            name: "Blog",
+            url: "https://lxxjn0-dev.netlify.app/"
         },
     ],
   
     navLinks: {
         menu: [
-            {
-                name: "Articles",
-                url: "/#articles",
-            },
+            // {
+            //     name: "Articles",
+            //     url: "/#articles",
+            // },
             {
                 name: "About Me",
                 url: "/#about",
             },
             {
-                name: "Features",
-                url: "/#projects",
+                name: "Skills",
+                url: "/#interests"
             },
+            {
+                name: "Projects",
+                url: "/#projects",
+            }
         ],
         button: {
             name: "Contact",
@@ -58,13 +54,13 @@ module.exports = {
     },
 
     footerLinks: [
-        {
-            name: "Privacy",
-            url: "/privacy"
-        },
-        {
-            name: "Imprint",
-            url: "/imprint"
-        }
+        // {
+        //     name: "Privacy",
+        //     url: "/privacy"
+        // },
+        // {
+        //     name: "Imprint",
+        //     url: "/imprint"
+        // }
     ]
 }
