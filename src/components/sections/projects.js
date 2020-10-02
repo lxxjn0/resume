@@ -105,7 +105,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
 const StyledProject = styled(motion.div)`
   display: flex;
   flex-direction: column-reverse;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -118,7 +118,6 @@ const StyledProject = styled(motion.div)`
     padding-right: 5rem;
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
-    justify-content: space-between;
     flex-shrink: 1;
     max-width: 62.5rem;
     margin-bottom: 10rem;
@@ -182,16 +181,12 @@ const StyledProject = styled(motion.div)`
   .screenshot {
     width: 100%;
     max-width: 25rem;
-    height: 15rem;
     border-radius: ${({ theme }) => theme.borderRadius};
     box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
     transition: all 0.3s ease-out;
     &:hover {
       transform: translate3d(0px, -0.125rem, 0px);
       box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
-    }
-    @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
-      height: 18.75rem;
     }
   }
 `

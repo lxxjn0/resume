@@ -6,6 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { motion } from "framer-motion"
 
 import { useOnScreen } from "../../hooks/"
+
 import ContentWrapper from "../../styles/ContentWrapper"
 
 const StyledSection = styled.section`

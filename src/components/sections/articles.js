@@ -6,6 +6,7 @@ import { motion, useAnimation } from "framer-motion"
 import Context from "../../context"
 import config from "../../config"
 import { parseDate } from "../../utils"
+
 import ContentWrapper from "../../styles/ContentWrapper"
 import Underlining from "../../styles/Underlining"
 
@@ -105,7 +106,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       }
       .date {
         font-size: 0.75rem;
-        color: #555555;
+        color: #888888;
         letter-spacing: +0.5px;
       }
     }

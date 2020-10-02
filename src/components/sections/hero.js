@@ -6,8 +6,10 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { motion, useAnimation } from "framer-motion"
 
 import Context from "../../context/"
+
 import ContentWrapper from "../../styles/ContentWrapper"
 import Underlining from "../../styles/Underlining"
+
 import Social from "../social"
 import SplashScreen from "../splashScreen"
 import Theme from "../../styles/Theme"

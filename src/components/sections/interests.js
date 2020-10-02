@@ -6,6 +6,7 @@ import { motion, useAnimation } from "framer-motion"
 
 import { detectMobileAndTablet, isSSR } from "../../utils"
 import { useOnScreen }  from "../../hooks/"
+
 import ContentWrapper from "../../styles/ContentWrapper"
 import Button from "../../styles/Button"
 
