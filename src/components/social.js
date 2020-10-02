@@ -94,7 +94,7 @@ const StyledSocialProfile = styled.a`
     height: 1rem;
     width: 1rem;
     margin-right: 0.5rem;
-    margin-bottom: -0.05rem;
+    margin-bottom: -0.15rem;
   }
 `
 
