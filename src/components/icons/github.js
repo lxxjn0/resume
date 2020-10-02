@@ -5,6 +5,7 @@ const Github = ({ color }) => {
   return (
     <svg
       version="1.1"
+      id="Ebene_1"
       role="img"
       fill={color}
       xmlns="http://www.w3.org/2000/svg"
