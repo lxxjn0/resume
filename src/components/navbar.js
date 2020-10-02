@@ -47,8 +47,8 @@ const StyledNav = styled.nav`
     background: ${({ theme }) => theme.colors.background};
     transition: 20ms ease-out;
     font-size: 1rem;
-    padding: 0.5rem 1.5rem;
-    margin: 0;
+    padding: 0.45rem 1.5rem 0.55rem 1.5rem;
+    margin: 0.1rem 0 0 0;
     &:hover {
       background: ${({ theme }) => theme.colors.primary};
       color: #ffffff;

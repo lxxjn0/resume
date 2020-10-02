@@ -54,7 +54,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       }
     }
     .subtitle {
-      margin-top: -0.75rem;
+      margin-top: -0.25rem;
     }
     .description {
       font-size: 1.125rem;
@@ -117,6 +117,9 @@ const Hero = ({ content }) => {
             {frontmatter.title}
           </h1>
           <h2 className="subtitle">
+            <Underlining color={Theme.colors.secondary} hoverColor={Theme.colors.secondary} big>테스트</Underlining>
+            {"와 "}
+            <Underlining color={Theme.colors.secondary} hoverColor={Theme.colors.secondary} big>클린 코드</Underlining>
             {frontmatter.subtitlePrefix}{" "}
             {/* Hover state color can be set in useEffect hook */}
             <AnimatedUnderlining animate={uControls} color="tertiary" big>
