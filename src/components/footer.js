@@ -3,7 +3,9 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 import Config from "../config/"
+
 import ContentWrapper from "../styles/ContentWrapper"
+
 import Logo from "./logo"
 
 const { footerLinks } = Config

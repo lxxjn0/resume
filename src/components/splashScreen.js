@@ -23,14 +23,14 @@ const StyledSplashScreen = styled(motion.div)`
       justify-content: center;
       align-items: center;
       width: auto;
-      height: 4rem;
+      height: 3rem;
   }
   .backdrop {
       position: absolute;
       top: 0;
       left: 0;
       z-index: 1000;
-      width: 100%;
+      width: 0;
       height: 100%;
       background-color: ${({ theme }) => theme.colors.primary};
   }
