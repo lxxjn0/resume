@@ -1,7 +1,7 @@
 module.exports = {
   colors: {
     primary: "#000000",
-    secondary: "#FFF4D9",
+    secondary: "#CDF3E1",
     tertiary: "#F2F2F2",
     text: "#000000",
     background: "#ffffff",
@@ -13,7 +13,7 @@ module.exports = {
     lg: "1200px",
   },
   fonts: {
-    primary: "Roboto, Arial, sans-serif",
+    primary: "Noto Sans KR, Roboto, Arial, sans-serif",
   },
   borderRadius: "1rem",
   pageWidth: "62.5rem",
