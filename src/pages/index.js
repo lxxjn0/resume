@@ -14,10 +14,10 @@ import { splashScreen } from "../config"
 
 const IndexPage = ({ data }) => (
   <Layout splashScreen={splashScreen}>
-    <SEO title="Portfolio Minimal - A Gatsby Starter." />
+    <SEO title="Junyoung Lee - Resume" />
     <Hero content={data.hero.edges} />
     {/* Articles is populated via Medium RSS Feed fetch */}
-    <Articles />
+    {/*<Articles />*/}
     <About content={data.about.edges} />
     <Interests content={data.interests.edges} />
     <Projects content={data.projects.edges} />
