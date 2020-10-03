@@ -98,7 +98,7 @@ const StyledInterests = styled.div`
     width: 15.625rem;
     height: 3rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
     border: 0.125rem solid ${({ theme }) => theme.colors.primary};
@@ -144,7 +144,7 @@ const Interests = ({ content }) => {
     sequence()
   }, [onScreen, shownInterests, iControls, bControls])
 
-  const showMoreItems = () => setShownInterests(shownInterests + 4)
+  const showMoreItems = () => setShownInterests(shownInterests + 7)
 
   return (
     <StyledSection id="interests">
@@ -167,7 +167,7 @@ const Interests = ({ content }) => {
               <Button
                 onClick={() => showMoreItems()}
                 type="button"
-                textAlign="left"
+                textAlign="center"
                 color="primary"
               >
                 + Load more
