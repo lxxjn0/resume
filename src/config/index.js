@@ -39,13 +39,13 @@ module.exports = {
                 url: "/#about",
             },
             {
-                name: "Skill & Interest",
+                name: "Skill",
                 url: "/#interests"
             },
             {
-                name: "Projects",
+                name: "Project",
                 url: "/#projects",
-            }
+            },
         ],
         button: {
             name: "Contact",
