@@ -119,7 +119,7 @@ const Hero = ({ content }) => {
           <h2 className="subtitle">
             <Underlining color={Theme.colors.secondary} hoverColor={Theme.colors.secondary} big>테스트</Underlining>
             {"와 "}
-            <Underlining color={Theme.colors.secondary} hoverColor={Theme.colors.secondary} big>클린 코드</Underlining>
+            <Underlining color={Theme.colors.secondary} hoverColor={Theme.colors.secondary} big>문제 해결</Underlining>
             {frontmatter.subtitlePrefix}{" "}
             {/* Hover state color can be set in useEffect hook */}
             <AnimatedUnderlining animate={uControls} color="tertiary" big>
